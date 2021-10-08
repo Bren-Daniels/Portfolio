@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    
+    <header class="header" id="header">
+        <h1 class="logo">Heyo,<p class="logo-text">Brendan Daniels here!</p></h1>
+        <p class="logo-caption">newly aspiring front-end web developer</p>
+    </header>
+    
+    <main class="main" id="main">
+        <div class="sidenav d-flex justify-content-between">
+            <div class="sidenav-hero">
+                <a href="#header" class="hero-link"><img src="https://via.placeholder.com/140x160" alt="logo" class="hero-img"></a>
+            </div>
+            <div class="sidenav-list">
+                <a href="#header" class="side-nav-item side-nav-page" id="frontButton">Top</a>
+                <a href="#about-header" class="side-nav-item side-nav-about" id="aboutButton">About</a>
+                <a href="#project-header" class="side-nav-item side-nav-projects" id="projectsButton">Projects</a>
+                <a href="#contact-header" class="side-nav-item side-nav-contact" id="contactButton">Contact</a>
+            </div>
+            <div class="social-links d-flex justify-content-around">
+                <a href="https://twitter.com/" class="social-link-item"><img src="media/twitter.png" alt="twitter"></a>
+                <a href="https://github.com/Bren-Daniels" class="social-link-item"><img src="media/github.png" alt="github"></a>
+                <a href="https://www.linkedin.com/" class="social-link-item"><img src="media/linkedin.png" alt="linkedin"></a>
+                <!-- <a href="#" class="social-link-item"><img src="https://via.placeholder.com/25x25" alt=""></a> -->
+            </div>
+        </div>
+        <section class="about-sec container-fluid" id="about_section">
+            <div class="about-parallax"></div>
+            <h2 class="about-header" id="about-header">The One Behind the Screen</h2>
+            <div class="about-div d-flex">
+                <p class="about-text">
+                    Just a simple junior web-developer from Mississippi who so happens to be a animal-lover, game enthusiast, and food devourer. My goal is to improve and hone my skills so that I will be able to create both functional and great-looking websites!
+                </p>
+                <img src="https://via.placeholder.com/200x200" alt="developer with dog" class="about-pic">
+            </div>
+        </section>
+        <section class="project-sec container-fluid" id="project_section">
+            <div class="projects-parallax"></div>
+            <h2 class="project-header" id="project-header">Portfolio</h2>
+            <p class="project-text">Here's a few samples of the projects I have completed so far!</p>
+            <div class="projects-div" id="projects-div">
+                <div class="row proj-div">
+                    <div class="col-md-3 col-sm-12 proj-col-div">
+                        <a href="" class="project project1"><img src="media/detroix.jpg" alt="" class="project-img"></a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 proj-col-div">
+                        <a href="" class="project project2"><img src="media/bloom_adobespark.jpg" alt="" class="project-img"></a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 proj-col-div">
+                        <a href="" class="project project3"><img src="media/graphicumbrella_adobespark.jpg" alt="" class="project-img"></a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 proj-col-div">
+                        <a href="" class="project project4"><img src="media/aditii_adobespark.jpg" alt="" class="project-img"></a>
+                    </div>
+                </div>
+                <div class="row proj-div">
+                    <div class="col-md-3 col-sm-12 proj-col-div">
+                        <a href="" class="project project5"><img src="https://via.placeholder.com/200x200" alt="" class="project-img"></a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 proj-col-div">
+                        <a href="" class="project project6"><img src="https://via.placeholder.com/200x200" alt="" class="project-img"></a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 proj-col-div">
+                        <a href="" class="project project7"><img src="https://via.placeholder.com/200x200" alt="" class="project-img"></a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 proj-col-div">
+                        <a href="" class="project project8"><img src="https://via.placeholder.com/200x200" alt="" class="project-img"></a>
+                    </div>
+                </div>
+            </div>
+            <img src="media/code-image.jpg" alt="" class="project-contact-sep-img">
+        </section>
+        <section class="contact-sec container-fluid" id="contact_section">
+            <h2 class="contact-header" id="contact-header">Let's Get In Touch!</h2>
+            <p class="contact-text">Have any further questions about me? Want to contact me about a potential website for your business? Just fill out this form and let me know what you're looking for!</p>
+            <form action="#" class="contact-form">
+                <div class="form-div form-div1">
+                    <input type="text" class="name-form" name="name" id="" value="" placeholder="Name">
+                </div>
+                <div class="form-div form-div2">
+                    <input type="text" class="email-form" name="email" id="" value="" placeholder="Email">
+                </div>
+                <div class="form-div form-div3">
+                    <input type="text" class="request-form" name="request" id="" value="" placeholder="Request">
+                </div>
+                <div class="form-div form-div4">
+                    <input type="text" class="details-form" name="details" id="" value="" placeholder="Tell me more about your request! :)">    
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer"></footer>
+    <script>
+        $(document).ready(function(){
+            $('#aboutButton').addClass('active-button');
+            handleScroll();
+            $("a").on('click', function(event) {
+        
+            if (this.hash !== "") {
+                event.preventDefault();
+        
+                var hash = this.hash;
+        
+                $('html, body').animate({
+                scrollTop: $(hash).offset().top
+                }, 800, function(){
+            
+                window.location.hash = hash;
+                });
+            } 
+            });
+            $(window).scroll(function() {
+                handleScroll();
+            });
+            function handleScroll() {
+                var header_top = $("#header").offset().top;
+                var header_bottom = $("#header").offset().top + $("#header").outerHeight();
+                var about_top = $("#about_section").offset().top;
+                var about_bottom = $("#about_section").offset().top + $("#about_section").outerHeight();
+                var projects_top = $("#project_section").offset().top;
+                var projects_bottom = $("#project_section").offset().top + $("#project_section").outerHeight();
+                var contact_top = $("#contact_section").offset().top;
+                var contact_bottom = $("#contact_section").offset().top + $("#contact_section").outerHeight();
+                var contact = $(window).scrollTop() + $(window).innerHeight();
+                var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+                var top_of_screen = $(window).scrollTop();
+                if ((bottom_of_screen > header_top) && (top_of_screen < header_bottom)) {
+                    $('#frontButton').addClass('active-button');
+                    $('#aboutButton').removeClass('active-button');
+                    $('#projectsButton').removeClass('active-button');
+                    $('#contactButton').removeClass('active-button');
+                } else if ((bottom_of_screen > about_top) && (top_of_screen < about_bottom)){
+                    $('#frontButton').removeClass('active-button');
+                    $('#aboutButton').addClass('active-button');
+                    $('#projectsButton').removeClass('active-button');
+                    $('#contactButton').removeClass('active-button');
+                } else if ((bottom_of_screen > projects_top  && bottom_of_screen <= contact_top) && (top_of_screen < projects_bottom)) {
+                    $('#frontButton').removeClass('active-button');
+                    $('#aboutButton').removeClass('active-button');
+                    $('#projectsButton').addClass('active-button');
+                    $('#contactButton').removeClass('active-button');
+                } else if ((bottom_of_screen > contact_top) && (top_of_screen < contact_bottom)) {
+                    $('#frontButton').removeClass('active-button');
+                    $('#aboutButton').removeClass('active-button');
+                    $('#projectsButton').removeClass('active-button');
+                    $('#contactButton').addClass('active-button');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
