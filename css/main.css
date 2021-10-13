@@ -36,7 +36,8 @@ body {
     font-size: 72px;
 }
 
-.logo-text {
+.logo-span {
+    display: block;
     font-size: 72px;
 }
 
@@ -282,6 +283,8 @@ background-size: cover;
     color: #fff;
 }
 
+/* form */
+
 .contact-form {
     margin-top: 80px;
     padding-bottom: 20px;
@@ -311,12 +314,13 @@ background-size: cover;
         height: 30px;
         width: 50%;
         margin: 5px 0;
+        padding-left: 4px;
     }
 
     .details-form {
-        height: 300px;
         width: 100%;
         margin-top: 5px;
+        padding: 5px 0 300px 4px;
     }
 }
 
@@ -336,6 +340,19 @@ background-size: cover;
         width: 130%;
         margin-top: 5px;
     }
+}
+
+.form-submit {
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #1d1d1d;
+    border: 2px solid limegreen;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.form-submit:hover {
+    background-color: green;
 }
 
 /* footer */
